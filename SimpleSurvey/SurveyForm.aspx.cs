@@ -13,6 +13,12 @@ namespace SimpleSurvey
         int surveyid;
         protected void Page_Load(object sender, EventArgs e)
         {
+			if (1 == 1)
+			{
+				//this is a dummy condition to just make
+				//some change which will needed to be checked in
+				//and validate that the build is happening successfully
+			}
             context = new SurveyAppConString();
             if (!IsPostBack)
                 LoadSurveys();
