@@ -13,7 +13,7 @@ namespace SimpleSurvey
         int surveyid;
         protected void Page_Load(object sender, EventArgs e)
         {
-			if (1 == 1)
+			if (1 == 2)
 			{
 				//this is a dummy condition to just make
 				//some change which will needed to be checked in
